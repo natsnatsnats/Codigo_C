@@ -1,4 +1,4 @@
-~~~javascript
+```ruby
 int main() {
   int numUm, numDois, soma = 0;
     printf("Digite o primeiro número: \n");
@@ -10,4 +10,4 @@ int main() {
   
   printf("Soma é igual a: %d", soma);
 }
-~~~
+```
