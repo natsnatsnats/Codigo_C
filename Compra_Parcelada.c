@@ -22,7 +22,7 @@ int main(void) {
         printf("Opção inválida\n");
       } else {
         preco = ((preco/parcela) * 1.03) * parcela;
-        printf("O preço final é: %.2f\n", preco);
+        printf("O preço final da sua compra parcela em %d meses é: %.2f\n", parcela, preco);
         printf("Cada parcela será de: %.2f\n", preco / parcela);
       }
     } else {
